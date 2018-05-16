@@ -4252,3 +4252,19 @@ INFO  2018-05-16 14:34:12,244 [5    ] .Internal.Transports.WebSocketsTransport -
 INFO  2018-05-16 14:34:12,262 [6    ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
 DEBUG 2018-05-16 14:34:12,263 [6    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"19c6bacc-aea3-4cfa-be5f-b5cbd202142a","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2018-05-16T14:34:12.2635544+08:00","Properties":{}}
 DEBUG 2018-05-16 14:34:12,264 [6    ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is registered: 19c6bacc-aea3-4cfa-be5f-b5cbd202142a
+DEBUG 2018-05-16 15:59:52,318 [37   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 19c6bacc-aea3-4cfa-be5f-b5cbd202142a
+INFO  2018-05-16 15:59:53,163 [37   ] .Internal.Transports.WebSocketsTransport - Socket closed.
+INFO  2018-05-16 15:59:53,303 [37   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 5141912.4046ms 101 
+INFO  2018-05-16 15:59:58,442 [41   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/signalr  
+INFO  2018-05-16 15:59:59,086 [41   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-16 15:59:59,136 [41   ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-05-16 15:59:59,295 [37   ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+DEBUG 2018-05-16 15:59:59,337 [37   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"98628242-8b83-4a97-b950-1a8cab3dd070","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2018-05-16T15:59:59.3373215+08:00","Properties":{}}
+DEBUG 2018-05-16 16:24:21,201 [19   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is disconnected: 98628242-8b83-4a97-b950-1a8cab3dd070
+INFO  2018-05-16 16:24:22,754 [19   ] .Internal.Transports.WebSocketsTransport - Socket closed.
+INFO  2018-05-16 16:24:23,093 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request finished in 1464568.251ms 101 
+INFO  2018-05-16 16:24:29,408 [19   ] soft.AspNetCore.Hosting.Internal.WebHost - Request starting HTTP/1.1 GET http://localhost:5000/signalr  
+INFO  2018-05-16 16:24:29,485 [19   ] tion.Cookies.CookieAuthenticationHandler - AuthenticationScheme: Identity.Application was successfully authenticated.
+INFO  2018-05-16 16:24:29,513 [19   ] .Internal.Transports.WebSocketsTransport - Socket opened.
+INFO  2018-05-16 16:24:29,526 [19   ] .AspNetCore.SignalR.HubConnectionContext - Using HubProtocol 'json'.
+DEBUG 2018-05-16 16:24:29,527 [19   ] Abp.AspNetCore.SignalR.Hubs.AbpCommonHub - A client is connected: {"ConnectionId":"f6e4b114-4f8c-488e-962b-2c5f3eeda2cd","IpAddress":"::1","TenantId":null,"UserId":1,"ConnectTime":"2018-05-16T16:24:29.5275368+08:00","Properties":{}}
